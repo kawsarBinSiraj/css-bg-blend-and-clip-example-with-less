@@ -1,0 +1,41 @@
+/**
+ * @less  
+ * @author      - kawsarhossain.com
+ * @created_by  - kawsar ibn siraj
+ * @created_at  - 14.03.2019
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+body {
+    height: 100vh;
+    background-image: url(http://www.accudata.com/smartdata/wp-content/uploads/2013/10/img-7-1.jpg);
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    h1#example {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: calc(2vw + 24px);
+        font-weight: 300;
+        text-transform: capitalize;
+        &::after,
+        &::before {
+            content: '';
+            height: 3px;
+            background-color: #fff;
+            flex-grow: 1;
+        }
+        >span {
+            display: inline-block;
+            padding: 0 25px;
+        }
+    }
+}
