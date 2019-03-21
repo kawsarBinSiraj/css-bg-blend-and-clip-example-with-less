@@ -1,1 +1,1 @@
-# css-background-blend-mode-clip--example-with-less
+# css-bg-blend-and-clip-example-with-less
